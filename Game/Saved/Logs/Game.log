@@ -4460,3 +4460,18 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.02.12-21.28.57:232][938]LogExit: Transaction tracking system shut down
 [2025.02.12-21.29.02:896][938]LogExit: Object subsystem successfully closed.
 [2025.02.12-21.29.02:949][938]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.02.12-21.29.06:130][938]MemoryProfiler: Shutdown
+[2025.02.12-21.29.06:138][938]NetworkingProfiler: Shutdown
+[2025.02.12-21.29.06:138][938]LoadingProfiler: Shutdown
+[2025.02.12-21.29.06:138][938]TimingProfiler: Shutdown
+[2025.02.12-21.29.07:186][938]LogOpenImageDenoise: OIDN shutting down
+[2025.02.12-21.29.08:931][938]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.02.12-21.29.08:931][938]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAFF8C82C-40C9-85A0-5ACD-5998ECDE40BC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.4-35576357%2B%2B%2BUE5%2BRelease-5.4&UserID=e28923c849c5d6e722d293b1f20ab0c9%7C43bf22cb8fe04496a6e6870c5ee08422%7C974862d6-73a4-4fc6-bbef-1c986fcfca9a&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.02.12-21.29.09:642][938]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.02.12-21.29.09:654][938]RenderDocPlugin: plugin has been unloaded.
+[2025.02.12-21.29.09:659][938]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.02.12-21.29.09:805][938]LogXGEController: Cleaning working directory: C:/Users/Alaska/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.02.12-21.29.09:950][938]LogPakFile: Destroying PakPlatformFile
+[2025.02.12-21.29.10:291][938]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.02.12-21.29.10:330][938]LogExit: Exiting.
+[2025.02.12-21.29.10:366][938]Log file closed, 02/12/25 16:29:10
