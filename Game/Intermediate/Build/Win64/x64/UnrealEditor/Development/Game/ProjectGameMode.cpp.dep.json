@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\source\\game\\private\\gamemode\\projectgamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\intermediate\\build\\win64\\x64\\gameeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\game\\definitions.game.h",
+            "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\source\\game\\public\\gamemode\\projectgamemode.h",
+            "a:\\program files\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "a:\\program files\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "a:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "a:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\intermediate\\build\\win64\\unrealeditor\\inc\\game\\uht\\projectgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

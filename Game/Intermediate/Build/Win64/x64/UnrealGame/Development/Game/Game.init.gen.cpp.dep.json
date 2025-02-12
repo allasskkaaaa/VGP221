@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\intermediate\\build\\win64\\unrealgame\\inc\\game\\uht\\game.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\intermediate\\build\\win64\\x64\\game\\development\\engine\\sharedpch.engine.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\intermediate\\build\\win64\\x64\\unrealgame\\development\\game\\definitions.game.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

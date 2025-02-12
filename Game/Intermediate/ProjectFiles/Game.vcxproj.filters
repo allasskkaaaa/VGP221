@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Game.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Game.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{219E6FED-A25B-3D50-AC18-BA6824E77580}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Game\Game.Build.cs">
+      <Filter>Source\Game</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Game\Game.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Game\Game.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\Game\Player">
+      <UniqueIdentifier>{EF42CC41-437D-3408-8D61-F9A192C6EAF3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Game\Player\PlayerCharacter.cpp">
+      <Filter>Source\Game\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Game\Player\PlayerCharacter.h">
+      <Filter>Source\Game\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\Game\Private">
+      <UniqueIdentifier>{32FEAC1F-71A4-3922-B760-966155DF3157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Private\Gamemode">
+      <UniqueIdentifier>{3913206D-BAFA-37C8-A79B-9017ABDC6340}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Game\Private\Gamemode\ProjectGameMode.cpp">
+      <Filter>Source\Game\Private\Gamemode</Filter>
+    </ClCompile>
+    <Filter Include="Source\Game\Public">
+      <UniqueIdentifier>{E3101328-C263-37C4-A31E-6FD8DCE6CE3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Public\Gamemode">
+      <UniqueIdentifier>{67795A07-6E07-3ED0-AD9C-A6FDC11B6EBC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Game\Public\Gamemode\ProjectGameMode.h">
+      <Filter>Source\Game\Public\Gamemode</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

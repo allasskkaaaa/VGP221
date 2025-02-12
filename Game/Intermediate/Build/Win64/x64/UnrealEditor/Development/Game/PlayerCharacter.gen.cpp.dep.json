@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\intermediate\\build\\win64\\unrealeditor\\inc\\game\\uht\\playercharacter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\intermediate\\build\\win64\\x64\\gameeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\game\\definitions.game.h",
+            "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\source\\game\\player\\playercharacter.h",
+            "a:\\program files\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "a:\\program files\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "a:\\program files\\ue_5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "a:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "a:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "a:\\program files\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "a:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "a:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\vgd\\term 5\\graphics programming\\superawesomegamecplus\\game\\intermediate\\build\\win64\\unrealeditor\\inc\\game\\uht\\playercharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
