@@ -15,6 +15,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define GAME_PlayerCharacter_generated_h
 
 #define FID_Game_Source_Game_Player_PlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execFire); \
+	DECLARE_FUNCTION(execEndJump); \
+	DECLARE_FUNCTION(execStartJump); \
 	DECLARE_FUNCTION(execMoveForward);
 
 

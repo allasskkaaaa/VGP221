@@ -28,8 +28,16 @@ public:
 
 	UFUNCTION()
 	void MoveForward(float value);
+	void MoveRight(float value);
 
+	UFUNCTION()
+	void StartJump();
 
+	UFUNCTION()
+	void EndJump();
+
+	UFUNCTION()
+	void Fire();
 
 
 protected:

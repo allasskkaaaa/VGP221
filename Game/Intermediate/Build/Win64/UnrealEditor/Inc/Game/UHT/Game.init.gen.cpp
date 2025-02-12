@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xB3FE6A0F,
+				0x2FB5614E,
 				0xAF413058,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeGame_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_Game.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Game(Z_Construct_UPackage__Script_Game, TEXT("/Script/Game"), Z_Registration_Info_UPackage__Script_Game, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xB3FE6A0F, 0xAF413058));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Game(Z_Construct_UPackage__Script_Game, TEXT("/Script/Game"), Z_Registration_Info_UPackage__Script_Game, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x2FB5614E, 0xAF413058));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
