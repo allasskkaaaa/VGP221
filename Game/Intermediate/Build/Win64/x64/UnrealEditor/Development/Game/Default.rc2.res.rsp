@@ -80,5 +80,5 @@
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_IDENTIFIER=Game
-/fo "D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Default.rc2.res"
+/fo "D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

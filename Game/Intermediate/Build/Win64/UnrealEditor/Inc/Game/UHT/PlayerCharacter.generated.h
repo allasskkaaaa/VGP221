@@ -14,6 +14,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GAME_PlayerCharacter_generated_h
 
+#define FID_Game_Source_Game_Player_PlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execMoveForward);
+
+
 #define FID_Game_Source_Game_Player_PlayerCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \
@@ -39,6 +43,7 @@ public: \
 #define FID_Game_Source_Game_Player_PlayerCharacter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_Game_Source_Game_Player_PlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_Game_Source_Game_Player_PlayerCharacter_h_12_INCLASS_NO_PURE_DECLS \
 	FID_Game_Source_Game_Player_PlayerCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \

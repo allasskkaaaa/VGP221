@@ -1,10 +1,17 @@
 #include "Game/Player/PlayerCharacter.h"
+#include "Camera/CameraComponent.h"
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Player Camera"));
+	Camera->SetupAttachment(RootComponent);
+	Camera->bUsePawnControlRotation = true;
+
+	UE_LOG(LogTemp, Warning, TEXT("Character constructor is called"));
 
 }
 
@@ -27,5 +34,13 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis("MoveForward", this, &APlayerCharacter::MoveForward);
+
+}
+
+void APlayerCharacter::MoveForward(float value)
+{
+	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
+	AddMovementInput(Direction, value);
 }
 

@@ -1,11 +1,11 @@
-"D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\UnrealEditor\Inc\Game\UHT\Game.init.gen.cpp"
-/FI"D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\GameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
-/FI"D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Definitions.Game.h"
-/Yu"D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\GameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
-/Fp"D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\GameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.pch"
-/Fo"D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Game.init.gen.cpp.obj"
-/sourceDependencies "D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Game.init.gen.cpp.dep.json"
-@"D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Game.Shared.rsp"
+"D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\UnrealEditor\Inc\Game\UHT\Game.init.gen.cpp"
+/FI"D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\GameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
+/FI"D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Definitions.Game.h"
+/Yu"D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\GameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
+/Fp"D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\GameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.pch"
+/Fo"D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Game.init.gen.cpp.obj"
+/sourceDependencies "D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Game.init.gen.cpp.dep.json"
+@"D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Game.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

@@ -11,14 +11,62 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 
 // Begin Cross Module References
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 GAME_API UClass* Z_Construct_UClass_APlayerCharacter();
 GAME_API UClass* Z_Construct_UClass_APlayerCharacter_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Game();
 // End Cross Module References
 
+// Begin Class APlayerCharacter Function MoveForward
+struct Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics
+{
+	struct PlayerCharacter_eventMoveForward_Parms
+	{
+		float value;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Player/PlayerCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_value;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics::NewProp_value = { "value", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PlayerCharacter_eventMoveForward_Parms, value), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics::NewProp_value,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCharacter, nullptr, "MoveForward", nullptr, nullptr, Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics::PropPointers), sizeof(Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics::PlayerCharacter_eventMoveForward_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics::Function_MetaDataParams), Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics::PlayerCharacter_eventMoveForward_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_APlayerCharacter_MoveForward()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APlayerCharacter_MoveForward_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(APlayerCharacter::execMoveForward)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_value);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->MoveForward(Z_Param_value);
+	P_NATIVE_END;
+}
+// End Class APlayerCharacter Function MoveForward
+
 // Begin Class APlayerCharacter
 void APlayerCharacter::StaticRegisterNativesAPlayerCharacter()
 {
+	UClass* Class = APlayerCharacter::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "MoveForward", &APlayerCharacter::execMoveForward },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
 IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(APlayerCharacter);
 UClass* Z_Construct_UClass_APlayerCharacter_NoRegister()
@@ -33,13 +81,29 @@ struct Z_Construct_UClass_APlayerCharacter_Statics
 		{ "IncludePath", "Player/PlayerCharacter.h" },
 		{ "ModuleRelativePath", "Player/PlayerCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[] = {
+		{ "Category", "PlayerCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Player/PlayerCharacter.h" },
+	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Camera;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_APlayerCharacter_MoveForward, "MoveForward" }, // 3102502017
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APlayerCharacter>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x0020080000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Camera_MetaData), NewProp_Camera_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCharacter_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Camera,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_APlayerCharacter_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_ACharacter,
 	(UObject* (*)())Z_Construct_UPackage__Script_Game,
@@ -50,12 +114,12 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_APlayerCharacter_Static
 	"Game",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
-	nullptr,
+	FuncInfo,
+	Z_Construct_UClass_APlayerCharacter_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
+	UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::PropPointers),
 	0,
 	0x009000A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::Class_MetaDataParams), Z_Construct_UClass_APlayerCharacter_Statics::Class_MetaDataParams)
@@ -80,10 +144,10 @@ APlayerCharacter::~APlayerCharacter() {}
 struct Z_CompiledInDeferFile_FID_Game_Source_Game_Player_PlayerCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APlayerCharacter, APlayerCharacter::StaticClass, TEXT("APlayerCharacter"), &Z_Registration_Info_UClass_APlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerCharacter), 576396204U) },
+		{ Z_Construct_UClass_APlayerCharacter, APlayerCharacter::StaticClass, TEXT("APlayerCharacter"), &Z_Registration_Info_UClass_APlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerCharacter), 3184298800U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Game_Source_Game_Player_PlayerCharacter_h_686357023(TEXT("/Script/Game"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Game_Source_Game_Player_PlayerCharacter_h_144565169(TEXT("/Script/Game"),
 	Z_CompiledInDeferFile_FID_Game_Source_Game_Player_PlayerCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Game_Source_Game_Player_PlayerCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

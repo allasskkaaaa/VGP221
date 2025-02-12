@@ -1,4 +1,5 @@
 /I "."
+/I "D:\VGD\Term 5\Graphics Programming\VGP221\Game\Source\Game\Private"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT"
 /I "Runtime\Engine\Classes"
 /I "Runtime\Engine\Public"
@@ -281,8 +282,9 @@
 /I "Editor\SceneDepthPickerMode\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\UHT"
 /I "Editor\AnimationEditMode\Public"
-/I "D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\UnrealEditor\Inc\Game\UHT"
-/I "D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Source"
+/I "D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\UnrealEditor\Inc\Game\UHT"
+/I "D:\VGD\Term 5\Graphics Programming\VGP221\Game\Source"
+/I "D:\VGD\Term 5\Graphics Programming\VGP221\Game\Source\Game\Public"
 /external:W0
 /external:I "ThirdParty\LibTiff\Source\Win64"
 /external:I "ThirdParty\LibTiff\Source"

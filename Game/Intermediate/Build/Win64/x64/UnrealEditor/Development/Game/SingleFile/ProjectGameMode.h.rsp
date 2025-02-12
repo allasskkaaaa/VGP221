@@ -1,14 +1,14 @@
-"D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\SingleFile\ProjectGameMode.h"
+"D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\SingleFile\ProjectGameMode.h"
 /external:W0
 /external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\INCLUDE"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Definitions.Game.h"
-/Fo"D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\SingleFile\ProjectGameMode.h.obj"
-/sourceDependencies "D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\SingleFile\ProjectGameMode.h.dep.json"
-@"D:\VGD\Term 5\Graphics Programming\SuperAwesomeGameCPLUS\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Game.Shared.rsp"
+/FI"D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Definitions.Game.h"
+/Fo"D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\SingleFile\ProjectGameMode.h.obj"
+/sourceDependencies "D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\SingleFile\ProjectGameMode.h.dep.json"
+@"D:\VGD\Term 5\Graphics Programming\VGP221\Game\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game\Game.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

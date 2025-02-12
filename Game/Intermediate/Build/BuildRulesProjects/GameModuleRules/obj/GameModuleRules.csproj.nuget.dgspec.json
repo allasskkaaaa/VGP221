@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VGD\\Term 5\\Graphics Programming\\SuperAwesomeGameCPLUS\\Game\\Intermediate\\Build\\BuildRulesProjects\\GameModuleRules\\GameModuleRules.csproj": {}
+    "D:\\VGD\\Term 5\\Graphics Programming\\VGP221\\Game\\Intermediate\\Build\\BuildRulesProjects\\GameModuleRules\\GameModuleRules.csproj": {}
   },
   "projects": {
     "A:\\Program Files\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
@@ -1304,14 +1304,14 @@
         }
       }
     },
-    "D:\\VGD\\Term 5\\Graphics Programming\\SuperAwesomeGameCPLUS\\Game\\Intermediate\\Build\\BuildRulesProjects\\GameModuleRules\\GameModuleRules.csproj": {
+    "D:\\VGD\\Term 5\\Graphics Programming\\VGP221\\Game\\Intermediate\\Build\\BuildRulesProjects\\GameModuleRules\\GameModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VGD\\Term 5\\Graphics Programming\\SuperAwesomeGameCPLUS\\Game\\Intermediate\\Build\\BuildRulesProjects\\GameModuleRules\\GameModuleRules.csproj",
+        "projectUniqueName": "D:\\VGD\\Term 5\\Graphics Programming\\VGP221\\Game\\Intermediate\\Build\\BuildRulesProjects\\GameModuleRules\\GameModuleRules.csproj",
         "projectName": "GameModuleRules",
-        "projectPath": "D:\\VGD\\Term 5\\Graphics Programming\\SuperAwesomeGameCPLUS\\Game\\Intermediate\\Build\\BuildRulesProjects\\GameModuleRules\\GameModuleRules.csproj",
+        "projectPath": "D:\\VGD\\Term 5\\Graphics Programming\\VGP221\\Game\\Intermediate\\Build\\BuildRulesProjects\\GameModuleRules\\GameModuleRules.csproj",
         "packagesPath": "C:\\Users\\Alaska\\.nuget\\packages\\",
-        "outputPath": "D:\\VGD\\Term 5\\Graphics Programming\\SuperAwesomeGameCPLUS\\Game\\Intermediate\\Build\\BuildRulesProjects\\GameModuleRules\\obj\\",
+        "outputPath": "D:\\VGD\\Term 5\\Graphics Programming\\VGP221\\Game\\Intermediate\\Build\\BuildRulesProjects\\GameModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
